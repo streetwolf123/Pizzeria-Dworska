@@ -1,5 +1,5 @@
 .main__menu {
-    height: 1000px;
+    height: 5200px;
     background-image: url(http://pizzeria-dworska.pl/wp-content/uploads/2021/09/menu-background.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 2000px;
 }
 
 .h2 {
@@ -38,7 +37,7 @@
 
 .component__paragraph {
     font-size: 25px;
-    width: 100%;
+    width: 600px;
     margin-top: 0;
     border-bottom: 2px solid white;
 }
@@ -50,4 +49,47 @@
 
 .component__description {
     font-size: 16px;
+}
+
+.div__border {
+    
+   
+    background-color: white;
+    
+}
+
+.menu__navigation {
+    padding: 0;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.menu__navigation--component {
+    list-style-type: none;
+    transition: 300ms;
+}
+
+.menu__navigation--a {
+    font-size: 20px;
+    color: rgb(186, 180, 180);
+    transition: 300ms;
+    text-decoration: none;
+}
+
+.menu__navigation--a:hover {
+    transform: scale(1.5);
+    color: rgb(249, 225, 193);
+}
+
+.menu__navigation--component:hover {
+    transform: scale(1.4);
+}
+
+
+.navigation__line {
+    width: 1300px;
+    border-bottom: 1px solid white;
 }

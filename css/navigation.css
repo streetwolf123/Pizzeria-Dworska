@@ -18,6 +18,7 @@
     align-items: center;
     background-color: black;
     color: white;
+    list-style-type: none;
 }
 
 .navigation__image {

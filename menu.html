@@ -30,10 +30,25 @@
         </nav>
     </header>
 
-    <main class=" section main__menu">
+    <main class="section main__menu">
         <h1 class="menu__header">Menu</h1>
+        <ul class="menu__navigation">
+            <li class="menu__navigation--component" ><a class="menu__navigation--a" href="#pizza"> Pizza</a></li>
+            <li class="menu__navigation--component">
+                <a class="menu__navigation--a" href="#addIngredient">
+                 Dodatkowe Składniki
+                </a>
+                </li>
+            <li class="menu__navigation--component"><a class="menu__navigation--a" href="#drinks">Napoje</a></li>
+            <li class="menu__navigation--component"><a class="menu__navigation--a" href="#foccacia">Foccacia</a></li>
+            <li class="menu__navigation--component"><a class="menu__navigation--a" href="#calzone">Calzone</a></li>
+            <li class="menu__navigation--component"><a class="menu__navigation--a" href="#mini">Mini pizza</a></li>
+            <li class="menu__navigation--component"><a class="menu__navigation--a" href="#soup">Zupy</a></li>
+            <li class="menu__navigation--component"><a class="menu__navigation--a" href="#salad">Sałaty</a></li>
+        </ul>
+        <p class="navigation__line"></p>
         <div class="menu__component">
-            <h2 class="component__header">Pizza</h2>
+            <h2 class="component__header" id="pizza">Pizza</h2>
             <p class="component__paragraph"><strong>(28 / 36 cm)</strong></p>
             <ol class="component__list">
                 <li class="component">
@@ -128,7 +143,150 @@
                 </li>
             </ol>
         </div>
+        <div class="menu__component">
+            <h2 class="component__header" id="addIngredient">Dodatkowe składniki do pizzy:</h2>
+            <p class="component__paragraph"><strong>(28 / 36 cm)</strong></p>
+            <ol class="component__list">
+                <li class="component">
+                    <p class="component__description"> Wędliny, anchois</p>
+                    <p class="component__description component__description--price"><strong>6zł / 7zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Sery</p>
+                    <p class="component__description component__description--price"><strong> 6zł / 7zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Mozzarella di bufala</p>
+                    <p class="component__description component__description--price"><strong> 9zł / 12zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Kozi ser dojrzewający </p>
+                    <p class="component__description component__description--price"><strong>7zł / 9zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Warzywa, zioła, orzechy </p>
+                    <p class="component__description component__description--price"><strong>4zł / 5zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Swieży czosnek </p>
+                    <p class="component__description component__description--price"><strong>1zł / 2zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Krewetki </p>
+                    <p class="component__description component__description--price"><strong>9zł / 12zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Sosy do pizzy: pomidorowy lub jogurtowo czosnkowy </p>
+                    <p class="component__description component__description--price"><strong>2,5zł</strong></p>
+                </li>
+            </ol>
+        </div>
+        <div class="menu__component">
+            <h2 class="component__header" id="drinks">Napoje:</h2>
+            <p class="component__paragraph"><strong>(0,5L / 0,85L)</strong></p>
+            <ul class="component__list">
+                <li class="component">
+                    <p class="component__description"> Coca Cola / Coca Cola Zero / Fanta / Sprite</p>
+                    <p class="component__description component__description--price"><strong>7,5zł / 9,5zł</strong></p>
+                </li>
+            </ul>
+        </div>
 
+        <div class="menu__component">
+            <h2 class="component__header" id="foccacia">Foccacia</h2>
+            <p class="component__paragraph"><strong>(pieczywo z podstawy od ciasta z dodatkami)</strong></p>
+            <ol class="component__list">
+                <li class="component">
+                    <p class="component__description"> Oliwa z oliwek, sól morska.</p>
+                    <p class="component__description component__description--price"><strong>15zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Oliwa z oliwek, świeży czosnek/rozmaryn/czarnuszka. </p>
+                    <p class="component__description component__description--price"><strong>17zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Oliwa z oliwek, mozzarella di bufala, pomidory koktajlowe, rukola. </p>
+                    <p class="component__description component__description--price"><strong>25zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Oliwa z oliwek, świeży czosnek, mozzarella, oregano.</p>
+                    <p class="component__description component__description--price"><strong>20zł</strong></p>
+                </li>
+            </ol>
+        </div>
+        <div class="menu__component">
+            <h2 class="component__header" id="calzone">Calzone:</h2>
+            <p class="component__paragraph"><strong>(Pieróg zapiekany z dodatkami w środku)</strong></p>
+            <ol class="component__list">
+                <li class="component">
+                    <p class="component__description">Sos pomidorowy, ser mozzarella, włoskie salami ventricina piccante, pomidory koktajlowe, oliwki, parmigiano reggiano. </p>
+                    <p class="component__description component__description--price"><strong>34zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Sos pomidorowy, mozzarella, szynka gotowana, pieczarki, cebula, czosnek, pecorino romano </p>
+                    <p class="component__description component__description--price"><strong>34zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Sos pomidorowy, ser mozzarella, włoskie salami mantova, gorgonzola piccante, suszone pomidory, świeży szpinak.</p>
+                    <p class="component__description component__description--price"><strong>36zł</strong></p>
+                </li>
+            </ol>
+        </div>
+        <div class="menu__component">
+            <h2 class="component__header" id="mini">Mini pizza dla dzieci:</h2>
+            <p class="component__paragraph"><strong>( 20 cm )</strong></p>
+            <ol class="component__list">
+                <li class="component">
+                    <p class="component__description"> Sos pomidorowy, ser mozzarella.</p>
+                    <p class="component__description component__description--price"><strong>17zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Sos pomidorowy, ser mozzarella, szynka, ananas.</p>
+                    <p class="component__description component__description--price"><strong>22zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Sos pomidorowy, ser mozzarella, szynka, pieczarki. </p>
+                    <p class="component__description component__description--price"><strong>22zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Sos pomidorowy, ser mozzarella, pierś z kurczaka marynowana w czosnku i ziołach, pomidory koktajlowe. </p>
+                    <p class="component__description component__description--price"><strong>22zł</strong></p>
+                </li>
+            </ol>
+        </div>
+        <div class="menu__component">
+            <h2 class="component__header" id="soup">Zupy</h2>
+            <p class="component__paragraph"><strong></strong></p>
+            <ul class="component__list">
+                <li class="component">
+                    <p class="component__description">Podawane z paluchami chlebowymi (zapytaj obsługę o ofertę dnia) </p>
+                    <p class="component__description component__description--price"><strong>16zł</strong></p>
+                </li>
+            </ul>
+        </div>
+        <div class="menu__component">
+            <h2 class="component__header" id="salad">Sałaty</h2>
+            <p class="component__paragraph"><strong>(Podawane z paluchami chlebowymi i sosem winegret/ oliwą z oliwek/ oliwą czosnkową.)</strong></p>
+            <ol class="component__list">
+                <li class="component">
+                    <p class="component__description"> Sałaty, pierś z kurczaka marynowana w czosnku i ziołach, pomidory koktajlowe, owoce kaparów, pecorino romano.</p>
+                    <p class="component__description component__description--price"><strong>33zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description"> Sałaty, prosciutto crudo, pomidory koktajlowe, oliwki, parmigiano reggiano, pestki dyni.</p>
+                    <p class="component__description component__description--price"><strong>33zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Sałaty, ser kozi, winogrona, orzechy włoskie. </p>
+                    <p class="component__description component__description--price"><strong>33zł</strong></p>
+                </li>
+                <li class="component">
+                    <p class="component__description">Sałaty, krewetki tygrysie, pomidory koktajlowe, rukola, parmigiano reggiano </p>
+                    <p class="component__description component__description--price"><strong>44zł</strong></p>
+                </li>
+            </ol>
+        </div>
+        <p class="component__paragraph"></p>
     </main>
 
     <footer class="section footer">
