@@ -1,0 +1,46 @@
+/* .pizza--rotate {
+    transform: rotateZ(1440deg) scale(1.5) scale(0.0);
+}
+
+.pizza--end {
+    width: 80px;
+    height: 80px;
+    rotate: 2880deg;
+    grid-template-columns: repeat(2, 40px);
+    grid-template-rows: repeat(2, 40px);
+} */
+
+/* .piece--start {
+    width: 80px;
+    height: 80px;
+    transition: 2s;
+}
+
+.piece--end {
+    width: 40px;
+    height: 40px;
+}
+
+.piece__left--up {
+    border-radius: 1000% 0% 0% 0%;
+    background-color: red;
+}
+
+.piece__left--up--end {
+    transform: translateX(900px) rotate(0);
+}
+
+.piece__right--up {
+    border-radius: 0% 1000% 0% 0%;
+    background-color: rgb(126, 15, 15);
+}
+
+.piece__left--down {
+    border-radius: 0% 0% 0% 1000%;
+    background-color: rgb(206, 111, 111);
+}
+
+.piece__right--down {
+    border-radius: 0% 0% 1000% 0%;
+    background-color: rgb(69, 10, 10);
+} */
