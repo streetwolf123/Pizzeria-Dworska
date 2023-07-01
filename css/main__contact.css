@@ -1,4 +1,4 @@
-.main__contact {
+.section__contact {
     height: 450px;
     background-image: url(http://pizzeria-dworska.pl/wp-content/uploads/2021/09/menu-background.jpg);
     background-size: cover;
@@ -8,11 +8,14 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-content: flex-start;
 }
 
 .contact__div--header {
-    flex-grow: 2;
+    align-self: flex-start;
+    margin-top: 0;
     flex-basis: 100%;
+    height: 150px;
 }
 
 .contact__div--information {
@@ -28,7 +31,7 @@
 }
 
 .title__information {
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .contact__time {

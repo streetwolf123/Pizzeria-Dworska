@@ -1,4 +1,4 @@
-.main {
+.section__homePage {
     margin-top: 0;
     height: 600px;
     width: 100%;
@@ -8,14 +8,7 @@
     background-attachment: fixed;
 }
 
-.main__paragraph {
-    width: 80%;
-    font-size: 32px;
-    text-align: center;
-    color: white;
-}
-
-.main__div {
+.homePage__div {
     background-color: rgba(0, 0, 0, 0.583);
     height: 100%;
     display: flex;
@@ -24,7 +17,14 @@
     justify-content: center;
 }
 
-.main__button {
+.homePage__paragraph {
+    width: 80%;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+.homePage__button {
     width: 300px;
     height: 50px;
     border: 0px;
@@ -32,7 +32,7 @@
     transition: 400ms;
 }
 
-.main__button:hover {
+.homePage__button:hover {
     transform: scale(1.4);
 }
 
