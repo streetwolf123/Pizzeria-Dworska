@@ -1,6 +1,6 @@
 .section__contact {
     height: 450px;
-    background-image: url(http://pizzeria-dworska.pl/wp-content/uploads/2021/09/menu-background.jpg);
+    background-image: url(../img/sections-background.jpeg);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
