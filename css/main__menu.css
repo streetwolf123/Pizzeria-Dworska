@@ -1,6 +1,6 @@
 .main__menu {
     height: 5200px;
-    background-image: url(http://pizzeria-dworska.pl/wp-content/uploads/2021/09/menu-background.jpg);
+    background-image: url("http://pizzeria-dworska.pl/wp-content/uploads/2021/09/menu-background.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
