@@ -35,10 +35,7 @@
 }
 
 .contact__time {
-    transition: 600ms;
     margin-top: 50px;
 }
 
-.contact__time:hover {
-    transform: scale(1.3);
-}
+
