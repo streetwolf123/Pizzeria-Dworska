@@ -1,6 +1,7 @@
 .footer {
     background-image: url(../img/background-footer.jpeg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     margin: 0;
     width: 100%;
