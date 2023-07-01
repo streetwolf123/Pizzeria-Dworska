@@ -1,5 +1,6 @@
 .footer {
-    background-image: url(http://pizzeria-dworska.pl/wp-content/uploads/2021/09/background-dark.jpg);
+    background-image: url(../img/background-footer.jpeg);
+    background-attachment: fixed;
     color: white;
     margin: 0;
     width: 100%;
