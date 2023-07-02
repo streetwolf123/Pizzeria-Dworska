@@ -20,16 +20,32 @@
 
 }
 
-.galery__component {
-    width: 400px;
+.galery__header {
+    padding: 40px;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+
+.picture {
+    width: 350px;
+    height: 350px;
+}
+
+.galery__component--right {
     transition: 400ms;
 }
 
-.galery__component:hover {
-    transform: scale(1.4) ;
+.galery__component--right:hover {
+    transform: scale(1.6) translateX(-150px);
 }
 
-.picture {
-    width: 300px;
-    height: 300px;
+.galery__component--left {
+    transition: 400ms;
+}
+
+.galery__component--left:hover {
+    transform: scale(1.6) translateX(150px);
 }

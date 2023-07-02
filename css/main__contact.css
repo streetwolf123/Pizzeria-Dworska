@@ -11,6 +11,10 @@
     align-content: flex-start;
 }
 
+.contact__header {
+    font-size: 60px;
+}
+
 .contact__div--header {
     align-self: flex-start;
     margin-top: 0;
