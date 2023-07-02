@@ -1,17 +1,27 @@
-.main__galery {
-    height: 2000px;
-    background-image: url(http://pizzeria-dworska.pl/wp-content/uploads/2021/09/menu-background.jpg);
+.section__galery {
+    height: 4000px;
+    background-image: url(../img/sections-background.jpeg);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+
 }
 
-.galery__section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 400px);
+.galery__header {
+    margin-top: 0;
+}
+
+.galery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .galery__component {
     width: 400px;
+}
+
+.picture {
+    width: 300px;
 }
