@@ -54,7 +54,6 @@
 .list__component {
     font-size: 20px;
     transition: 200ms;
-    
 }
 
 .list__component:hover {
