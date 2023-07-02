@@ -15,7 +15,7 @@
 }
 
 .footer__div {
-    transition: 200ms;
+    transition: 500ms;
 }
 
 .footer__div:hover {
@@ -25,7 +25,7 @@
 }
 
 .footer__div--differentScale {
-    transition: 200ms;
+    transition: 500ms;
 }
 
 .footer__div--differentScale:hover {

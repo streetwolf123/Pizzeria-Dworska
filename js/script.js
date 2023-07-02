@@ -12,7 +12,7 @@ if (toggle = true) {
         const m = newDate.getMinutes();
         const s = newDate.getSeconds();
         
-        timeSlot.innerHTML = h + ":" + m + ":" + s;
+        timeSlot.innerHTML =  h  + ":"  +  m + ":" + s;
     }, 1000)
 }
 
