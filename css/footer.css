@@ -16,6 +16,7 @@
 
 .footer__div {
     transition: 500ms;
+    
 }
 
 .footer__div:hover {
@@ -49,3 +50,26 @@
     color: aqua;
 }
 
+@media(max-width: 767px) {
+    .section__footer {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .footer__div {
+      text-align: center;
+        
+    }
+
+    .footer__paragraph {
+        width: 320px;
+    }
+
+    .footer__div:hover {
+        transform: scale(1);
+    }
+
+    .footer__div--differentScale:hover {
+        transform: scale(1);
+    }
+}

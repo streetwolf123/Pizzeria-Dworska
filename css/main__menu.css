@@ -22,6 +22,7 @@
     justify-content: space-around;
 }
 
+
 .navigation--component {
     list-style-type: none;
     transition: 300ms;
@@ -71,4 +72,39 @@
 
 .component__description {
     font-size: 16px;
+}
+
+@media(max-width: 767px) {
+    .menu__navigation {
+        width: 400px;
+        flex-direction: column;
+    }
+    .navigation--component {
+        margin: 15px;
+    }
+
+    .section__menu {
+        height: 9000px;
+    }
+
+    .menu__component {
+        width: 300px;
+    }
+
+    .component__paragraph {
+        width: 300px;
+    }
+
+    .component {
+        font-size: 20px;
+    }
+
+    .component__description {
+        font-size: 20px;
+    }
+
+    .navigation--a:hover {
+        transform: scale(1);
+        color: rgb(186, 180, 180);
+    }
 }

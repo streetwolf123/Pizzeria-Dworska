@@ -8,6 +8,8 @@
     background-attachment: fixed;
 }
 
+
+
 .homePage__div {
     background-color: rgba(0, 0, 0, 0.583);
     height: 100%;
@@ -36,3 +38,16 @@
     transform: scale(1.4);
 }
 
+@media(max-width: 767px) {
+    .section__homePage {
+        height: 800px;
+    }
+
+    .homePage__div {
+        justify-content: space-around;
+    }
+
+    .homePage__paragraph {
+        font-size: 28px;
+    }
+}

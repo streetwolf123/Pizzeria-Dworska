@@ -47,3 +47,25 @@
 .galery__component--left:hover {
     transform: scale(1.6) translateX(150px);
 }
+
+@media(max-width: 767px) {
+    .section__galery {
+        height: 6000px;
+    }
+
+    .galery {
+        display: flex;
+        flex-direction: column;
+    }
+    .galery__component--right:hover {
+        transform: scale(1) ;
+    }
+
+    .picture {
+        margin-bottom: 10px;
+    }
+
+    .galery__component--left:hover {
+        transform: scale(1);
+    }
+}
